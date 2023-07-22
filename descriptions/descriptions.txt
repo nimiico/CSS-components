@@ -1,4 +1,11 @@
-.page-link.page-link--current {     # when it does not have space between two classes it means selector has two classes and it effect on priority
-        background-color: #087f5b;  
-        color: #fff;                  
-      }
+height: 100vh; # 100% of view port. 100% of the screen height
+
+position: absolute;
+left: 50%;                          # positioned in center of parents reletively so the parent must position: reletive. and then it get in to center of parent in every size
+top: 50%;
+transform: translate(-50%, -50%);
+
+background-image: url(img/hero.jpg); # set image for background
+background-size: cover; # fixed iamge in it aprent
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/hero.jpg); # mixed to image that first is on top of the second
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) # gradiant from first color to second color
