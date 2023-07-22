@@ -1,11 +1,3 @@
-height: 100vh; # 100% of view port. 100% of the screen height
+margin-left: auto; # margin from flexible by size of the window
 
-position: absolute;
-left: 50%;                          # positioned in center of parents reletively so the parent must position: reletive. and then it get in to center of parent in every size
-top: 50%;
-transform: translate(-50%, -50%);
-
-background-image: url(img/hero.jpg); # set image for background
-background-size: cover; # fixed iamge in it aprent
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/hero.jpg); # mixed to image that first is on top of the second
-background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) # gradiant from first color to second color
+overflow: scroll; # How elements taht don't fit into container apear
