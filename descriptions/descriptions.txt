@@ -1,3 +1,12 @@
-transform: scale(1.5); # scale element size
-transform: translate(-50%, -50%); # move as much as 50% width and height of element also you can put 'px'
-padding: 32px 48px 32px 86px; # top right bottom left
+  - <table></table> # table
+  - <tr></tr> # table row
+  - <td></td> # table data
+  - <thead></thead> # table head. the first row
+  - <tbody></tbody> # table body
+  - <th></th> # head of each column and row
+
+  border-collapse: collapse; # colapse border line that are side by side
+
+  tbody tr:nth-child(odd) {
+        background-color: #f8f9fa; # coloring odd ones
+      }
