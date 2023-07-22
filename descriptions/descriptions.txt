@@ -1,12 +1,4 @@
-  - <table></table> # table
-  - <tr></tr> # table row
-  - <td></td> # table data
-  - <thead></thead> # table head. the first row
-  - <tbody></tbody> # table body
-  - <th></th> # head of each column and row
-
-  border-collapse: collapse; # colapse border line that are side by side
-
-  tbody tr:nth-child(odd) {
-        background-color: #f8f9fa; # coloring odd ones
+.page-link.page-link--current {     # when it does not have space between two classes it means selector has two classes and it effect on priority
+        background-color: #087f5b;  
+        color: #fff;                  
       }
