@@ -1,0 +1,3 @@
+transform: scale(1.5); # scale element size
+transform: translate(-50%, -50%); # move as much as 50% width and height of element also you can put 'px'
+padding: 32px 48px 32px 86px; # top right bottom left
